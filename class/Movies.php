@@ -22,4 +22,20 @@ class Movie
     $this->year = $_year;
     $this->genre = $_genre;
   }
+
+
+  public function Img($_img)
+  {
+    $this->img = $_img;
+  }
+
+  public function getImg()
+  {
+    $placeholder = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Bj240l6FHX_bWhZ2obo_F49fohH582cxAA&usqp=CAU';
+    if ($this->img) {
+      return $this->img;
+    } else {
+      return $placeholder;
+    }
+  }
 }
