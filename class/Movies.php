@@ -16,11 +16,12 @@ class Movie
    */
 
 
-  public function __construct($_title, $_year, $_genre)
+  public function __construct($_title, $_year, $_genre, AddInfoData $_addinfo = null)
   {
     $this->title = $_title;
     $this->year = $_year;
     $this->genre = $_genre;
+    $this->addInfo = $_addinfo;
   }
 
 

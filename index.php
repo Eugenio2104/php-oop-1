@@ -5,8 +5,8 @@ require_once './class/AddInfo.php';
 
 
 
-$movie1 = new Movie("Avengers: Endgame", "2019", "fantasy");
-$movie2 = new Movie("La leggenda di Al, John e Jack", "2002", "commedy");
+$movie1 = new Movie("Avengers: Endgame", "2019", "fantasy", new AddInfoData("USA", "Alla deriva nello spazio senza cibo o acqua, Tony Stark vede la propria scorta di ossigeno diminuire di minuto in minuto. Nel frattempo, i restanti Vendicatori affrontano un epico scontro con Thanos.", "181 min"));
+$movie2 = new Movie("La leggenda di Al, John e Jack", "2002", "commedy", new AddInfoData("ITA", "New York, 1959. Un noto esponente della malavita organizzata commissiona a tre gangster l'eliminazione di un certo Frankie. Questi sono però tipi decisamente curiosi e, come se non bastasse, uno di loro, perde la memoria in seguito ad un avvenimento traumatico. I due colleghi di avventure, John e Jack, tentano di salvare l'amico smemorato, che punta a porsi in rocambolesche circostanze senza senso minimo del pericolo.", "105 min"));
 
 var_dump($movie1);
 var_dump($movie2);
