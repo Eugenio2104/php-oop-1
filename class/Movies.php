@@ -11,10 +11,12 @@ class Movie
 
   /**
    * @param String $title
+   * @param String $year
+   * @param String $genre
    */
 
 
-  public function __constructor($_title, $_year, $_genre)
+  public function __construct($_title, $_year, $_genre)
   {
     $this->title = $_title;
     $this->year = $_year;
